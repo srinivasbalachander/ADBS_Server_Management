@@ -1,0 +1,9 @@
+# Create new user id and password
+
+useradd -c "String with proper name" {username}
+passwd {username}
+
+
+# Decide their maximum memory, cores usage
+
+nano /etc/security/limits.conf
