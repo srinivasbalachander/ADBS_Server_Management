@@ -7,3 +7,8 @@ passwd {username}
 # Decide their maximum memory, cores usage
 
 nano /etc/security/limits.conf
+
+
+# For the maximum numner of processes, edit the files in 
+
+/etc/security/limits.d/*
